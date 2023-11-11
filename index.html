@@ -66,32 +66,70 @@
         <h1>Skill And Project</h1>
         <br>
         <div class="Skills" id="skills">Skills
-            <li>programming</li>
+            <li>programming</li><br>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi quibusdam repellat neque autem veniam cumque? Dolorum ipsam quaerat, quis delectus velit eos cupiditate, ipsa atque labore cum, placeat magnam natus.</p>
-            <li>progrmming</li>
+            <li>progrmming</li><br>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nemo, maxime deserunt ullam pariatur sequi optio aperiam deleniti rem nostrum illum labore veniam, distinctio odit corrupti sint, quisquam iure autem?</p>
-            <li>programming</li>
+            <li>programming</li><br>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores molestiae aliquid magni laboriosam cupiditate, unde consequatur, laudantium delectus quisquam illo nisi, id aperiam repellat libero in laborum at dolor. Dicta.</p>
-            <li>programming</li>
+            <li>programming</li><br>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat harum reiciendis repellendus voluptatibus in ex. Culpa itaque ad fugiat voluptatibus, excepturi eligendi, modi, facilis velit est cupiditate commodi nisi illum?</p>
         </div> 
         <br>
         <div class="Project">Project 
-        <li>programming</li>
+        <li>programming</li><br>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio deserunt ad, ex distinctio optio modi, repudiandae illum necessitatibus facilis voluptate, laborum quis quidem quam architecto iste praesentium inventore a beatae.</p>
-        <li>programming</li>
+        <li>programming</li><br>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi magni cupiditate vero, harum optio consequuntur inventore ipsam voluptates quaerat earum ratione expedita at, consequatur tenetur ad eaque tempora dolore nostrum.</p>
-        <li>programming</li>
+        <li>programming</li><br>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis accusantium numquam possimus assumenda dicta porro consequatur sit quae eius quam deserunt, maxime, fugit fugiat saepe molestias quasi, exercitationem iusto tempora?</p>
-        <LI>programming</LI>
+        <LI>programming</LI><br>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam animi inventore voluptas, tempora error omnis. Nam nobis perspiciatis eum molestias, assumenda porro maxime alias unde distinctio voluptatem debitis dignissimos impedit?</p>
          </div>
     </div>
     <div class="contact" id="contact"> 
-        <h3>contact me</h3><br>
-        <h3>Name</h3><br>
+        <h3>Contact Me</h3><br>
+        <h3>Abhishek</h3><br>
         <h3>Harihara</h3><br>
         <h3>8553036547</h3><br>
+        <form action="mailto:abhishek170me19003@gmail.com">
+            <table>
+                <tr>
+                    <td>
+                        <label for="username">Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="subject" placeholder="lorem Ipusum">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phone number">Phone Number</label>
+                    </td>
+                    <td>
+                        <input type="number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="msg">Messege</label>
+                    </td>
+                    <td>
+                        <textarea name="body"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type="submit">send</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
     </div>
     
     
@@ -128,7 +166,7 @@ th,td{
 
 }
 .project1{
-    height: 100vh;
+    height: 130vh;
     background-color: darksalmon;
     padding: 0PX 200PX;
 }
@@ -137,6 +175,7 @@ th,td{
 }
 .contact{
     text-align: center;
+    padding: 30px;
 }
 nav{
     background-color: cadetblue;
@@ -149,5 +188,24 @@ a{
     color: black;
     font-size: 20px;
     padding: 30px;
+}
+.contact table{
+    margin: auto;
+    text-align: left;
+}
+.contact button{
+    padding: 10px 30px;
+    background-color: chartreuse;
+    border: none;
+    border-radius: 5px;
+}
+.contact button:hover{
+    background-color: aqua;
+}
+@media (max-width: 600px)
+{
+    .firstpage{
+        background-color: darkcyan; 
+    }
 }
 </style>
